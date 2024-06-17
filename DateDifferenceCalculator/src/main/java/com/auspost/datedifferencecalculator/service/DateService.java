@@ -16,7 +16,7 @@ public class DateService {
 		String[] partsDate1 = date1.split(" ");
 		String[] partsDate2 = date2.split(" ");
 		
-		//Splitting and parsing dates from string to int
+		//Splitting and parsing dates from string to integer
 		int day1 = Integer.parseInt(partsDate1[0]);
 		int month1 = Integer.parseInt(partsDate1[1]);
 		int year1 = Integer.parseInt(partsDate1[2]);
